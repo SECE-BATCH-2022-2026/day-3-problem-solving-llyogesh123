@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Main {
+class String {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         String s1 = sc.nextLine();
@@ -18,7 +18,7 @@ class UserMainCode {
 
         while ((index = s1.indexOf(s2, index)) != -1) {
             count++;
-            index = index + s2.length(); // move forward to avoid overlapping
+            index = index + s2.length(); 
         }
 
         return count;
